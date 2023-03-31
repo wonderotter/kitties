@@ -126,8 +126,15 @@
 //   console.log(item);
 // }
 
-const autoBrands = ['Audi', 'BMW', 'Mazda', 'Toyota'];
+// const autoBrands = ['Audi', 'BMW', 'Mazda', 'Toyota'];
 
-autoBrands.forEach(function (item, index) {
-  console.log(`${item} => ${index}`);
-})
+// autoBrands.forEach(function (item, index) {
+//   console.log(`${item} => ${index}`);
+// })
+
+
+let arr = ['Toyota', 'Mazda', 'Opel'];
+// arr.push('BMW');
+arr.splice(1, 2, 'VAZ');
+
+console.log(arr);
