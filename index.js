@@ -133,8 +133,42 @@
 // })
 
 
-let arr = ['Toyota', 'Mazda', 'Opel'];
+// let arr = ['Toyota', 'Mazda', 'Opel'];
 // arr.push('BMW');
-arr.splice(1, 2, 'VAZ');
+// arr.splice(1, 2, 'VAZ');
 
-console.log(arr);
+// console.log(arr);
+
+//                                                                taska Палиндром
+// написать функцию которая проверяет является ли строка палиндромом/ вернуть true или false/
+
+// function checkPalindrom(word) {
+//     // нижн регистр
+//     word = word.toLowerCase();
+//     // строка в масив
+//     let checWord = word.split('');
+//     // развернуть массив
+//     checWord = checWord.reverse();
+//     // объедением
+//     checWord = checWord.join('');
+
+//     if (word === checWord)
+//         return true;
+//     else return false;
+
+//     return checWord;
+// }
+// console.log(checkPalindrom('alla'));
+
+// оптимизация
+
+// const palindrom = word => {
+//     word = word.toLowerCase();
+//     return word === word.split('').reverse().join('');
+// }
+// console.log(palindrom('hello'));
+
+
+
+
+
