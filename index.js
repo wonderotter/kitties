@@ -168,7 +168,7 @@
 // }
 // console.log(palindrom('hello'));
 
-
-
+const d = 15;
+console.log(d);
 
 
