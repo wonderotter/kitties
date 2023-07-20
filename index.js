@@ -186,3 +186,16 @@
 // console.log(slug1);
 
 
+// const message = confirm('введи щось');
+// console.log(message);
+// const typeNumber = prompt('enter the word')
+// const enotherNumber = Number(typeNumber)
+// const whatTheType = typeof typeNumber
+
+// console.log(whatTheType);
+
+// const type = Number()
+
+const date = new Date();
+
+console.log(`Today is ${date.getFullYear()}`)
